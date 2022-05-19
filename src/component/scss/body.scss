@@ -1,0 +1,150 @@
+body {
+  // font-family: 'Pacifico', cursive;
+  min-height: 100vh;
+  background-image: linear-gradient(to right, rgb(189, 188, 243), rgb(160, 138, 223), rgb(172, 198, 228));
+}
+.ant-tabs-nav-wrap{
+  margin-left: 28px;
+}
+.ant-tabs-tab-btn{
+  font-size: 20px;
+  color: white;
+
+}
+
+.ant-tabs-tab + .ant-tabs-tab {
+    margin: 0 0 0 32px;
+}
+.ant-tabs-tab {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 0;
+    font-size: 14px;
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+biểu định kiểu tác nhân người dùng
+div {
+    display: block;
+}
+.ant-tabs > .ant-tabs-nav .ant-tabs-nav-wrap, .ant-tabs > div > .ant-tabs-nav .ant-tabs-nav-wrap {
+    position: relative;
+    display: inline-block;
+    display: flex;
+    flex: auto;
+    align-self: stretch;
+    overflow: hidden;
+    white-space: nowrap;
+    transform: translate(0);
+}
+.ant-tabs {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 16px;
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    list-style: none;
+    font-feature-settings: 'tnum', "tnum";
+    display: flex;
+    overflow: hidden;
+}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body {
+    margin: 0;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    background-color: #fff;
+    font-feature-settings: 'tnum', "tnum";
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.tabletop {
+  margin-top: 10px;
+  width: 96%;
+  margin-left: 2%;
+  border-radius: 10px;
+  margin-bottom: 100px;
+
+  .ant-table-pagination-right {
+    justify-content: center;
+  }
+}
+
+.tailetable {
+  margin-top: 100px;
+  color: #fff;
+  margin-left: 2%;
+}
+
+// button{
+//     cursor: pointer;
+// }
+// .texts14{
+//     font-size: 14px;
+// }
+// .curpoi{
+//     cursor:'pointer'
+// }
+  .pagination-responsive {
+    .ant-pagination {
+      position: relative;
+      display: flex;
+      justify-content: flex-end !important;
+      align-items: center;
+      width: 95% !important;
+      margin: 0 auto;
+      padding-top: 30px;
+      .ant-pagination-options {
+        position: absolute;
+        right: 285px !important;
+        display: flex;
+        align-items: center;
+        .ant-select {
+          height: 40px;
+          display: flex;
+          align-items: center;
+
+          .ant-select-selector {
+            display: flex;
+            align-items: center;
+            border: none;
+            height: 30px;
+          }
+        }
+        .ant-select-open {
+          border: none;
+        }
+      }
+      .ant-pagination-options::before {
+        content: "Số bản ghi hiển thị trên trang: ";
+        font-family: "Mulish";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.30000001192092896px;
+        text-align: left;
+        color: #8a8a8a;
+      }
+    }
+  }

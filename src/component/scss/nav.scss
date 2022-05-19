@@ -1,0 +1,67 @@
+.bodynav {
+
+  .nav {
+    position: fixed;
+    width: 96%;
+    height: 65px;
+    background-color: rgba(255, 255, 255);
+    margin-top: 5px;
+    margin-left: 2%;
+    border-radius: 20px;
+    border: 1.5px solid #fff;
+    z-index: 1;
+
+    .namenav {
+      float: left;
+      margin-left: 1%;
+      margin-top: 5px;
+      h2{
+        color: black;
+      }
+    }
+    .top- {
+      margin-top: -0px;
+    }
+
+    .itemav {
+      height: 65px;
+      display: flex;
+      align-items: center !important;
+      justify-content: flex-end;
+      margin-right: 2%;
+      border: none;
+      .inputav {
+        width: 150px;
+        height: 30px;
+        border-bottom-right-radius: 25px;
+        border-top-right-radius: 25px;
+        border: none;
+        
+        background: none;
+        &:hover {
+          margin-left: 5px;
+        }
+      }
+      .inputav:focus{
+        border: none;
+        border: 1px solid white;
+      }
+
+      .btnavz {
+        width: 40px;
+        height: 30px;
+        border-bottom-left-radius: 25px;
+        border-top-left-radius: 25px;
+        background: none;
+        border: none;
+      }
+
+      span {
+        color: black;
+        margin-left: 7px;
+      }
+    }
+
+  }
+
+}
